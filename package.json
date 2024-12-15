@@ -1,0 +1,41 @@
+{
+  "name": "trx_svip",
+  "version": "1.0.2",
+  "description": "波场靓号离线生成工具,包含GPU模式、CPU模式、Web3模式：配置文件修改.env.json中的参数{\"mod\":\"\"},可以填入gpu4f、cpu4f、web4f,对应三个不同的生成模式",
+  "main": "next.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'"
+  },
+  "repository": "git+https://github.com/aspnmy/Trx_Svip.git",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aspnmy/Trx_Svip/issues"
+  },
+  "homepage": "https://github.com/aspnmy/Trx_Svip#readme",
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "4.23.6",
+    "boring-avatars": "^1.7.0",
+    "dayjs": "^1.11.6",
+    "lodash.map": "^4.6.0",
+    "lodash.random": "^3.2.0",
+    "next": "13.0.5",
+    "nextjs": "^0.0.3",
+    "nice-color-palettes": "^3.0.0",
+    "react": "^18.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "tronweb": "^6.0.0",
+    "trx_svip": "file:",
+    "yarn": "^1.22.22",
+    "zustand": "^4.1.4"
+  },
+  "engines": {
+    "node": ">=14.16.0"
+  }
+}
